@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basin</title>
+</head>
+
+<body>
+    <img src="imeg/STmUK.jpg" style="width: 100%; opacity: 0.6;">
+
+    <div style=" position: absolute; top: 0%; font-size: 22px;" align="center">
+
+        <div>
+            <h1>Вітаю в нашому басейні!</h1>
+            <h2>Заповніть форму запису на відвідування басейну</h2>
+        </div>
+        <br>
+        <form action="processorder.php" method=post>
+
+            <b> П. І. Пб. заброньовувача: </b>
+
+            <input type="text" name="fam" size=40>
+
+            <table border=2 bgcolor=#B0E0E6>
+                <tr>
+                <tr bgcolor=#6495ED>
+                    <td align=center> <span style="color: rgb(255, 255, 255)">Дані </span></td>
+                    <td align=center width=20> <span style="color: rgb(255, 255, 255)">Кількість </span></td>
+                </tr>
+                <tr>
+                    <td align=center> Час перебування </td>
+                    <td align=center><input type="text" name="tireqty" size=10 maxlength=5></td>
+                </tr>
+                <tr>
+                    <td align=center> Кількість людей</td>
+                    <td align=center><input type="text" name="oilty" size=10 maxlength=2></td>
+                </tr>
+                <tr>
+                    <td align=center> Чим оплата</td>
+                    <td align=center><input type="text" name="Sparkqty" size=10 maxlength=10></td>
+                </tr>
+                <tr>
+                    <td colspan=2 align=center><input type=submit name=submit value="Забронювати"></td>
+                </tr>
+                <tr>
+                    <td colspan=2 align=center><input type=reset name=reset value="Очистити поля"></td>
+                </tr>
+            </table>
+        </form>
+        <p><img src="imeg/пошук.png" style="width: 20%;" alt="Пошук"> </p>
+        <a href="http://google.com/" style="font-size: 22px;" title="Google Search" ><strong>Знайти в Google</strong></a>
+    </div>
+    <a href="index.html" style="font-size: 30px;">Повернутись на головну</a>
+</body>
+
+</html>
